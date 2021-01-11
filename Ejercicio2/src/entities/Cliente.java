@@ -9,6 +9,11 @@ public class Cliente {
 	private String nombre;
 	private String saldo;
 	
+	/*Constructor no parametrizado de la clase Cliente*/
+
+	public Cliente() {
+		
+	}
 	/*Constructor parametrizado en el orden que se nos muestra en el constructor de la Clase "TestBanco" */
 	public Cliente(String dni, String nombre, String saldo) {
 		
