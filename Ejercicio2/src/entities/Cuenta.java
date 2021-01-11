@@ -3,12 +3,16 @@ package entities;
 public class Cuenta {
 
 	/*
-	 *Variables de la clase Cuenta obtenido de los constructores de Cuenta de la Clase "TestBanco",adem·s de instanciar un objeto "cliente" */
+	 *Variables de la clase Cuenta obtenido de los constructores de Cuenta de la Clase "TestBanco",adem√°s de instanciar un objeto "cliente" */
 	private int numeroCuenta;
 	private int saldo;
 	private Cliente cliente;
+	/*Constructor no parametrizado de la clase Cuenta*/
 
-	/*Constructor parametrizado en el orden que se nos muestra en el constructor de la Clase "TestBanco" y en el que aÒadimos el objeto cliente
+	public Cuenta() {
+		
+	}
+	/*Constructor parametrizado en el orden que se nos muestra en el constructor de la Clase "TestBanco" y en el que a√±adimos el objeto cliente
 	 * tal y como aparece en el constructor de cuenta de la Clase "TestBanco" */
 	public Cuenta(int numeroCuenta, int saldo, Cliente cliente) {
 		
