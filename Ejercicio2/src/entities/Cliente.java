@@ -8,6 +8,7 @@ public class Cliente {
 	private String dni;
 	private String nombre;
 	private String saldo;
+	private int cosa =1;
 	
 	/*Constructor no parametrizado de la clase Cliente*/
 
